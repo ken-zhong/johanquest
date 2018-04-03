@@ -1,0 +1,272 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'node', '-g' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData node
+8 silly fetchNamedPackageData node
+9 silly mapToRegistry name node
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/node
+13 verbose request uri https://registry.npmjs.org/node
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 8:06:39 PM
+16 verbose request id 0f19bffac73eb50a
+17 verbose etag "5abfb9ca-5ae81"
+18 verbose lastModified Sat, 31 Mar 2018 16:39:38 GMT
+19 http request GET https://registry.npmjs.org/node
+20 http 304 https://registry.npmjs.org/node
+21 verbose headers { date: 'Tue, 03 Apr 2018 01:06:40 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"5abfb9ca-5ae81"',
+21 verbose headers   age: '49',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-ewr18121-EWR',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '1',
+21 verbose headers   'x-timer': 'S1522717600.144136,VS0,VE1',
+21 verbose headers   vary: 'Accept-Encoding, Accept' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Tue, 03 Apr 2018 01:06:40 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"5abfb9ca-5ae81"',
+22 silly get     age: '49',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-ewr18121-EWR',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1522717600.144136,VS0,VE1',
+22 silly get     vary: 'Accept-Encoding, Accept' } ]
+23 verbose etag https://registry.npmjs.org/node from cache
+24 verbose get saving node to /root/.npm/registry.npmjs.org/node/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule node@9.10.1 checking installable status
+38 silly cache add args [ 'node', null ]
+39 verbose cache add spec node
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'node',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'node',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed node@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for node
+43 info addNameTag [ 'node', 'latest' ]
+44 silly mapToRegistry name node
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/node
+48 verbose addNameTag registry:https://registry.npmjs.org/node not in flight; fetching
+49 verbose get https://registry.npmjs.org/node not expired, no request
+50 silly addNameTag next cb for node with tag latest
+51 silly addNamed node@9.10.1
+52 verbose addNamed "9.10.1" is a plain semver version for node
+53 silly cache afterAdd node@9.10.1
+54 verbose afterAdd /root/.npm/node/9.10.1/package/package.json not in flight; writing
+55 verbose afterAdd /root/.npm/node/9.10.1/package/package.json written
+56 silly fetchNamedPackageData node-bin-setup
+57 silly mapToRegistry name node-bin-setup
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+61 verbose request uri https://registry.npmjs.org/node-bin-setup
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 8:06:39 PM
+64 verbose etag "5976bbea-1511"
+65 verbose lastModified Tue, 25 Jul 2017 3:32:58 GMT
+66 http request GET https://registry.npmjs.org/node-bin-setup
+67 http 304 https://registry.npmjs.org/node-bin-setup
+68 verbose headers { date: 'Tue, 03 Apr 2018 01:06:40 GMT',
+68 verbose headers   via: '1.1 varnish',
+68 verbose headers   'cache-control': 'max-age=300',
+68 verbose headers   etag: '"5976bbea-1511"',
+68 verbose headers   age: '48',
+68 verbose headers   connection: 'keep-alive',
+68 verbose headers   'x-served-by': 'cache-ewr18135-EWR',
+68 verbose headers   'x-cache': 'HIT',
+68 verbose headers   'x-cache-hits': '1',
+68 verbose headers   'x-timer': 'S1522717600.330303,VS0,VE0',
+68 verbose headers   vary: 'Accept-Encoding, Accept' }
+69 silly get cb [ 304,
+69 silly get   { date: 'Tue, 03 Apr 2018 01:06:40 GMT',
+69 silly get     via: '1.1 varnish',
+69 silly get     'cache-control': 'max-age=300',
+69 silly get     etag: '"5976bbea-1511"',
+69 silly get     age: '48',
+69 silly get     connection: 'keep-alive',
+69 silly get     'x-served-by': 'cache-ewr18135-EWR',
+69 silly get     'x-cache': 'HIT',
+69 silly get     'x-cache-hits': '1',
+69 silly get     'x-timer': 'S1522717600.330303,VS0,VE0',
+69 silly get     vary: 'Accept-Encoding, Accept' } ]
+70 verbose etag https://registry.npmjs.org/node-bin-setup from cache
+71 verbose get saving node-bin-setup to /root/.npm/registry.npmjs.org/node-bin-setup/.cache.json
+72 silly resolveWithNewModule node-bin-setup@1.0.6 checking installable status
+73 silly cache add args [ 'node-bin-setup@^1.0.0', null ]
+74 verbose cache add spec node-bin-setup@^1.0.0
+75 silly cache add parsed spec Result {
+75 silly cache add   raw: 'node-bin-setup@^1.0.0',
+75 silly cache add   scope: null,
+75 silly cache add   name: 'node-bin-setup',
+75 silly cache add   rawSpec: '^1.0.0',
+75 silly cache add   spec: '>=1.0.0 <2.0.0',
+75 silly cache add   type: 'range' }
+76 silly addNamed node-bin-setup@>=1.0.0 <2.0.0
+77 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for node-bin-setup
+78 silly addNameRange { name: 'node-bin-setup',
+78 silly addNameRange   range: '>=1.0.0 <2.0.0',
+78 silly addNameRange   hasData: false }
+79 silly mapToRegistry name node-bin-setup
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+83 verbose addNameRange registry:https://registry.npmjs.org/node-bin-setup not in flight; fetching
+84 verbose get https://registry.npmjs.org/node-bin-setup not expired, no request
+85 silly addNameRange number 2 { name: 'node-bin-setup',
+85 silly addNameRange   range: '>=1.0.0 <2.0.0',
+85 silly addNameRange   hasData: true }
+86 silly addNameRange versions [ 'node-bin-setup',
+86 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ] ]
+87 silly addNamed node-bin-setup@1.0.6
+88 verbose addNamed "1.0.6" is a plain semver version for node-bin-setup
+89 silly cache afterAdd node-bin-setup@1.0.6
+90 verbose afterAdd /root/.npm/node-bin-setup/1.0.6/package/package.json not in flight; writing
+91 verbose afterAdd /root/.npm/node-bin-setup/1.0.6/package/package.json written
+92 silly loadAllDepsIntoIdealTree Finishing
+93 silly idealTree:prePrune lib
+93 silly idealTree:prePrune └─┬ node@9.10.1
+93 silly idealTree:prePrune   └── node-bin-setup@1.0.6
+94 silly loadIdealTree Finishing
+95 silly currentTree lib
+96 silly idealTree lib
+96 silly idealTree └─┬ node@9.10.1
+96 silly idealTree   └── node-bin-setup@1.0.6
+97 silly generateActionsToTake Starting
+98 silly install generateActionsToTake
+99 silly generateActionsToTake Finishing
+100 silly diffTrees action count 2
+101 silly diffTrees add node-bin-setup@1.0.6
+102 silly diffTrees add node@9.10.1
+103 silly decomposeActions action count 16
+104 silly decomposeActions fetch node-bin-setup@1.0.6
+105 silly decomposeActions extract node-bin-setup@1.0.6
+106 silly decomposeActions test node-bin-setup@1.0.6
+107 silly decomposeActions preinstall node-bin-setup@1.0.6
+108 silly decomposeActions build node-bin-setup@1.0.6
+109 silly decomposeActions install node-bin-setup@1.0.6
+110 silly decomposeActions postinstall node-bin-setup@1.0.6
+111 silly decomposeActions finalize node-bin-setup@1.0.6
+112 silly decomposeActions fetch node@9.10.1
+113 silly decomposeActions extract node@9.10.1
+114 silly decomposeActions test node@9.10.1
+115 silly decomposeActions preinstall node@9.10.1
+116 silly decomposeActions build node@9.10.1
+117 silly decomposeActions install node@9.10.1
+118 silly decomposeActions postinstall node@9.10.1
+119 silly decomposeActions finalize node@9.10.1
+120 silly executeActions Starting
+121 silly install executeActions
+122 silly doSerial global-install 0
+123 silly doParallel fetch 2
+124 verbose lock using /root/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+125 silly doParallel extract 2
+126 silly extract node-bin-setup@1.0.6
+127 silly extract node@9.10.1
+128 verbose unbuild lib/node_modules/.staging/node-bin-setup-e96ff650
+129 verbose unbuild lib/node_modules/.staging/node-120c5c5f
+130 silly gentlyRm /usr/local/lib/node_modules/.staging/node-bin-setup-e96ff650 is being purged from base /usr/local
+131 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/node-bin-setup-e96ff650
+132 verbose tar unpack /root/.npm/node-bin-setup/1.0.6/package.tgz
+133 verbose tar unpacking to /usr/local/lib/node_modules/.staging/node-bin-setup-e96ff650
+134 silly gentlyRm /usr/local/lib/node_modules/.staging/node-bin-setup-e96ff650 is being purged
+135 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/node-bin-setup-e96ff650
+136 silly gentlyRm /usr/local/lib/node_modules/.staging/node-120c5c5f is being purged from base /usr/local
+137 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/node-120c5c5f
+138 silly gunzTarPerm modes [ '777', '666' ]
+139 verbose tar unpack /root/.npm/node/9.10.1/package.tgz
+140 verbose tar unpacking to /usr/local/lib/node_modules/.staging/node-120c5c5f
+141 silly gentlyRm /usr/local/lib/node_modules/.staging/node-120c5c5f is being purged
+142 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/node-120c5c5f
+143 silly gunzTarPerm modes [ '777', '666' ]
+144 silly gunzTarPerm extractEntry package.json
+145 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+146 silly gunzTarPerm extractEntry package.json
+147 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+148 silly gunzTarPerm extractEntry index.js
+149 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+150 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+151 silly gunzTarPerm modified mode [ 'installArchSpecificPackage.js', 420, 438 ]
+152 silly gunzTarPerm extractEntry README.md
+153 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+154 silly gentlyRm /usr/local/lib/node_modules/.staging/node-bin-setup-e96ff650/node_modules is being purged
+155 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/node-bin-setup-e96ff650/node_modules
+156 silly gentlyRm /usr/local/lib/node_modules/.staging/node-120c5c5f/node_modules is being purged
+157 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/node-120c5c5f/node_modules
+158 silly doParallel preinstall 2
+159 silly preinstall node-bin-setup@1.0.6 /usr/local/lib/node_modules/.staging/node-bin-setup-e96ff650
+160 info lifecycle node-bin-setup@1.0.6~preinstall: node-bin-setup@1.0.6
+161 silly preinstall node@9.10.1 /usr/local/lib/node_modules/.staging/node-120c5c5f
+162 info lifecycle node@9.10.1~preinstall: node@9.10.1
+163 silly lifecycle node-bin-setup@1.0.6~preinstall: no script for preinstall, continuing
+164 warn lifecycle node@9.10.1~preinstall: cannot run in wd %s %s (wd=%s) node@9.10.1 node installArchSpecificPackage /usr/local/lib/node_modules/.staging/node-120c5c5f
+165 silly doReverseSerial remove 0
+166 silly doSerial move 0
+167 silly doSerial finalize 2
+168 silly finalize /usr/local/lib/node_modules/node/node_modules/node-bin-setup
+169 silly finalize /usr/local/lib/node_modules/node
+170 silly doSerial build 2
+171 silly build node-bin-setup@1.0.6
+172 info linkStuff node-bin-setup@1.0.6
+173 silly linkStuff node-bin-setup@1.0.6 has /usr/local/lib/node_modules/node/node_modules as its parent node_modules
+174 silly linkStuff node-bin-setup@1.0.6 is part of a global install
+175 silly linkStuff node-bin-setup@1.0.6 is installed into a global node_modules
+176 verbose linkBins node-bin-setup@1.0.6
+177 verbose linkMans node-bin-setup@1.0.6
+178 silly build node@9.10.1
+179 info linkStuff node@9.10.1
+180 silly linkStuff node@9.10.1 has /usr/local/lib/node_modules as its parent node_modules
+181 silly linkStuff node@9.10.1 is part of a global install
+182 silly linkStuff node@9.10.1 is installed into a global node_modules
+183 silly linkStuff node@9.10.1 is installed into the top-level global node_modules
+184 verbose linkBins node@9.10.1
+185 verbose link bins [ { node: 'bin/node' }, '/usr/local/bin', true ]
+186 verbose linkMans node@9.10.1
+187 verbose unlock done using /root/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+188 silly rollbackFailedOptional Starting
+189 silly rollbackFailedOptional Finishing
+190 silly runTopLevelLifecycles Starting
+191 silly runTopLevelLifecycles Finishing
+192 silly install printInstalled
+193 verbose stack Error: ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/node/bin/node'
+193 verbose stack     at Error (native)
+194 verbose cwd /mnt/d/Projects/JohanQuest
+195 error Linux 4.4.0-43-Microsoft
+196 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "node" "-g"
+197 error node v4.2.6
+198 error npm  v3.5.2
+199 error path /usr/local/lib/node_modules/node/bin/node
+200 error code ENOENT
+201 error errno -2
+202 error syscall chmod
+203 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/node/bin/node'
+204 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/node/bin/node'
+204 error enoent This is most likely not a problem with npm itself
+204 error enoent and is related to npm not being able to find a file.
+205 verbose exit [ -2, true ]
