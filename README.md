@@ -11,4 +11,5 @@ Set up dev environment
 ##### Credits:
 
 Assets:
-- Music - www.bensound.com
+- Music - https://www.bensound.com
+- Sprite - https://bevouliin.com/neat-boy-game-character-sprites/
