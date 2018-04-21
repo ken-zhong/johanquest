@@ -1,11 +1,7 @@
-/* canvas {
-  display: block;
-  position: absolute;
-  top: 0;
-  height: 100%;
+body {
+  background: black;
 }
 
-.canvas-container {
-  display: inline;
-  position: relative;
-} */
+canvas {
+  margin: 0 auto;
+}
